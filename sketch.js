@@ -18,7 +18,7 @@ function draw() {
   if(wall.x-car.x < (car.width+wall.width)/2);
   {
     car.velocityX = 0;
-    var deformation = 0.5*weight*speed*22500;
+    var deformation = 0.5*weight*speed/22500;
     if(deformation>180);
     {
       car.shapeColor = color("yellow");
